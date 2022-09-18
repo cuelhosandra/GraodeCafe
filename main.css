@@ -1,0 +1,86 @@
+.navPrincipal .logoNav {
+    position: absolute;
+    right: 90%;
+    height: 50px;
+    width: 125px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #936639;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+.navPrincipal{
+    background-color: #432818;
+    width: 100%;
+    height: 113px;
+    
+   }
+
+.navPrincipal ul {
+    float: right;
+}
+
+.navPrincipal ul li {
+    display: inline-block;
+}
+
+.navPrincipal ul li a:hover{
+    color: brown !important;
+
+}
+.navPrincipal ul li a {
+    line-height: 1.5;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.carousel{
+    width: 100%;
+    text-align: center;
+ }
+
+ .carousel li{
+    list-style: none;
+ }
+
+
+.botão {
+
+        box-sizing: border-box;
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #DEB887;
+        border-radius: 0.6em;
+        color: #DEB887;
+        cursor: pointer;
+        display: flex;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+         align-self: center;
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 1;
+        margin: 10px;
+        padding: 1.2em 2.8em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+          } 
+
+
